@@ -225,16 +225,4 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses>
- <distributionManagement>
-    <snapshotRepository>
-      <id>deployment</id>
-      <name>Internal Snapshot Release</name>
-      <url>http://192.168.33.102:8081/repository/spring-snap/</url>
-    </snapshotRepository>
-    <repository>
-      <id>deployment</id>
-      <name>Internal Releases</name>
-      <url>http://192.168.33.102:8081/repository/spring-releases/</url>
-    </repository>
- </distributionManagement>
 </project>
