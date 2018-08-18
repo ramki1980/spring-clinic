@@ -224,5 +224,14 @@
       <name>Apache License, Version 2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
-  </licenses>
+ <distributionManagement>
+    <snapshotRepository>
+      <id>deployment</id>
+      <url>http://192.168.33.102:8081/repository/spring-snap/</url>
+    </snapshotRepository>
+    <repository>
+      <id>deployment</id>
+      <url>http://192.168.33.102:8081/repository/spring-releases/</url>
+    </repository>
+ </distributionManagement>
 </project>
