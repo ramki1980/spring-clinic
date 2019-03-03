@@ -225,7 +225,7 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses>
-        
+  <!--      
   <distributionManagement>
     <snapshotRepository>
       <id>deployment</id>
@@ -235,6 +235,6 @@
       <id>deployment</id>
       <url>http://192.168.33.102:8081/repository/spring-releases/</url>
     </repository>
-  </distributionManagement>
+  </distributionManagement> -->
 
 </project>
